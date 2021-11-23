@@ -1,0 +1,167 @@
+/*******************************
+
+	  cores da pagina
+
+	#222831  Cinza Escuro
+	#393e46  Cinza Claro
+	#fd7014  Laranja
+	#eeeeee  Branco 
+
+**********************************/
+
+
+/**********************************************
+
+  configuração geral inicial da página 
+
+**********************************************/
+
+html {
+padding: 0x;
+margin: 0px;
+}
+
+body {
+padding: 0px;
+margin: 0px;
+font-size: 1.2rem;
+font-family: arial;
+border: 0px;
+}
+
+ul {
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+
+a {
+color: #eeeeee;
+text-decoration: none;
+display: flex;
+}
+
+
+/****************** navegação e menu ***************/
+
+.header {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+}
+
+a:hover {
+color: #fd7014;
+}
+
+header {
+margin: 0px;
+background-color: #222831;
+}
+
+.logo {
+width: 40px;
+height: 40px;
+}
+
+.menu {
+display: flex;
+}
+
+.menu li {
+margin-left: 10px;
+}
+
+.menu li a {
+display:block;
+padding: 10px;
+}
+
+/*********** Conteudo da página principal ********************/
+
+h2 {
+text-align: center;
+}
+
+p {
+font-size: 1.2rem;
+text-align: justify;
+}
+
+.meta1 {
+background-color: #22222222;
+margin: 0px;
+padding: 20px 10% 20px 10%;
+}
+
+.meta2 {
+background-color: #fd7014;
+margin: 0px;
+padding: 20px 10% 20px 10%;
+}
+
+.meta3 {
+background-color: #22222222;
+margin: 0px;
+padding: 20px 10% 20px 10%;
+}
+
+.equipe {
+background-color: #393e46;
+margin: 0px;
+padding: 20px 10% 20px 10%;
+color: eee;
+}
+
+
+
+
+/************************ Roda pé geral  ***************************/
+
+
+footer {
+font-size: 1rem;
+color: #eeeeee;
+text-align: center;
+background-color: #222831;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+
+/**************************************************
+
+	PÁGINAS EM CONSTRUÇÃO
+
+**************************************************/
+
+
+.const {
+margin: 0px;
+text-align: center;
+padding-top: 30%;
+padding-bottom: 30%;
+color: #222831;
+background-color: #fd7014; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* trabalhando na aba atual / arquivo temporário */
+.emConstrucao {
+background-color: #22222222;
+margin: 0px;
+padding: 0px;
+}
