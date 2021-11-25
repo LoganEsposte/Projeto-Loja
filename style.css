@@ -159,8 +159,9 @@ background-color: #fd7014;
 
 
 
-/* trabalhando na aba atual / arquivo temporário */
-.emConstrucao {
+/*************** Pagina de levantamentos ***********************/
+
+.estiloLev {
 background-color: #fd7014;
 margin: 0px;
 padding: 0px;
@@ -198,4 +199,19 @@ color: white;
 
 input {
 	height: 30px;
+	margin-left: 10px;
+}
+
+.btnCalc {
+	width: 50%;
+	padding: 15px;
+	color: #fd7014;
+	background-color: #eee;
+	border-radius: 15px;
+	font-size: 20px;
+}
+
+.btnCalc:hover {
+	color: black;
+	background-color: #fd7014;
 }
